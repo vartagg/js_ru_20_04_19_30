@@ -35,6 +35,7 @@ export default class Article extends Component {
     }
 
     getComments(comments) {
+        //легче было как часть body сделать
         return this.state.isOpen ? <Comments comments={comments}/> : null;
     }
 
